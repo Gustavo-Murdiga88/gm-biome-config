@@ -1,13 +1,9 @@
-# @gm-dev/eslint-config
-
-<p>
-This package was built for help when you need config eslint on your project. This packege has config several, you can applicate this in projects as nextJS, vite and projects back-end with nodeJs. 
-</p>
+# @gm-dev/biome
 
 # Install
 
 ```js
-  npm i @gm-dev/eslint-config -D
+  npm i @gm-dev/biome -D
 ```
 # Usage example
 
