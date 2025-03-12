@@ -1,0 +1,28 @@
+{
+  "name": "@gm-dev/biome",
+  "version": "1.0.0",
+  "description": "A set of config to biome.js for node.js",
+  "main": "index.js",
+  "exports": {
+    "node": {
+      "import": "./node.json",
+      "require": "./node.json"
+    }
+  }, 
+  "publishConfig": {
+    "access": "public"
+  }, 
+  "repository": {
+    "url": "https://github.com/Gustavo-Murdiga88/gm-biome-config",
+    "type": "git",
+    "directory": "/Gustavo-Murdiga88/gm-biome-config"
+  },
+  "keywords": [
+    "biome",
+    "node",
+    "linter",
+    "Gustavo Murdiga"
+  ],
+  "author": "Gustavo Murdiga",
+  "license": "MIT"
+}

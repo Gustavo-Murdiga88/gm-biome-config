@@ -1,0 +1,78 @@
+{
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": [],
+    "include": [
+      "./src/**"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "suspicious": {
+        "noAsyncPromiseExecutor": "off",
+        "noDebugger": "warn"
+      },
+      "style": {
+        "noDefaultExport": "warn",
+        "useNamingConvention": {
+          "level": "error",
+          "options": {
+            "conventions": [
+              {
+                "formats": [
+                  "PascalCase"
+                ],
+                "match": "I[A-Z].*",
+                "selector": {
+                  "kind": "interface",
+                  "scope": "any"
+                }
+              },
+              {
+                "formats": [
+                  "PascalCase"
+                ],
+                "selector": {
+                  "kind": "typeLike",
+                  "scope": "any"
+                }
+              },
+              {
+                "formats": [
+                  "PascalCase"
+                ],
+                "selector": {
+                  "kind": "enum",
+                  "scope": "any"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "recommended": true
+    }
+  },
+  "javascript": {
+    "formatter": {
+      "bracketSpacing": true,
+      "lineWidth": 80,
+      "trailingCommas": "all",
+      "quoteStyle": "double"
+    }
+  }
+}
