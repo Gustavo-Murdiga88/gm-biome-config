@@ -1,17 +1,15 @@
 {
   "name": "@gm-dev/biome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of config to biome.js for node.js",
   "main": "index.js",
+  "type": "module",
   "exports": {
-    "node": {
-      "import": "./node.json",
-      "require": "./node.json"
-    }
-  }, 
+    "./node": "./node.json"
+  },
   "publishConfig": {
     "access": "public"
-  }, 
+  },
   "repository": {
     "url": "https://github.com/Gustavo-Murdiga88/gm-biome-config",
     "type": "git",
